@@ -133,7 +133,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-color: #000;
+		background-color: #fff;
 		padding: 6em 4em 4em 4em;
 	}
 
@@ -151,6 +151,7 @@ input, select, textarea {
 		body > * {
 			position: relative;
 			z-index: 2;
+			text-align: center;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -501,7 +502,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(55, 83, 164, 0.5);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -1067,6 +1068,12 @@ input, select, textarea {
 
 	}
 
+	.logo-img {
+		width: 50%;
+		display: block;
+		margin: 0 auto;
+	}
+
 /* Signup Form */
 
 	#signup-form {
@@ -1131,9 +1138,9 @@ input, select, textarea {
 		transition: opacity 0.5s ease-in-out;
 		bottom: 4em;
 		color: rgba(255, 255, 255, 0.5);
-		left: 4em;
 		opacity: 0.5;
 		position: absolute;
+		text-align: center;
 	}
 
 		#footer .icons {
@@ -1176,7 +1183,6 @@ input, select, textarea {
 
 			#footer {
 				bottom: 3.5em;
-				left: 3.5em;
 			}
 
 		}
@@ -1185,7 +1191,6 @@ input, select, textarea {
 
 			#footer {
 				bottom: 2em;
-				left: 2em;
 			}
 
 		}
@@ -1194,7 +1199,6 @@ input, select, textarea {
 
 			#footer {
 				bottom: 1.25em;
-				left: 1.25em;
 			}
 
 		}
@@ -1203,7 +1207,6 @@ input, select, textarea {
 
 			#footer {
 				bottom: auto;
-				left: auto;
 				margin: 1em 0 0 0;
 				position: relative;
 			}
