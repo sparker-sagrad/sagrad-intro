@@ -502,7 +502,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: rgba(55, 83, 164, 0.5);
+		color: rgba(75, 68, 68, 0.5);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -1212,3 +1212,8 @@ input, select, textarea {
 			}
 
 		}
+
+.container
+{
+display: flex;
+}		
